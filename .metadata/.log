@@ -16,3 +16,45 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-03-30 17:13:54.262
 !MESSAGE Indexed 'day6_1' (3 sources, 53 headers) in 1.22 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2024-04-01 23:44:17.239 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-01 23:45:00.166
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-01 23:45:00.167
+!MESSAGE Log4j2 initialized with config file /home/pritesh/Desktop/sunbeam/microcontroller/class work/MCPI_Assignment/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-01 23:45:05.623
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-04-01 23:46:18.130 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-01 23:46:28.655
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-01 23:46:28.656
+!MESSAGE Log4j2 initialized with config file /home/pritesh/Desktop/sunbeam/microcontroller/class work/MCPI_Assignment/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-01 23:46:33.948
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-01 23:49:22.910
+!MESSAGE Indexed 'day03_1' (6 sources, 66 headers) in 1.88 sec: 3,431 declarations; 5,683 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-01 23:49:24.029
+!MESSAGE Indexed 'day3_2' (6 sources, 66 headers) in 1.11 sec: 3,431 declarations; 5,683 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-01 23:49:25.061
+!MESSAGE Indexed 'day4_1' (6 sources, 66 headers) in 1.02 sec: 3,443 declarations; 5,973 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-01 23:53:55.440
+!MESSAGE Indexed 'assign7_1' (2 sources, 53 headers) in 0.416 sec: 1,948 declarations; 2,834 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)

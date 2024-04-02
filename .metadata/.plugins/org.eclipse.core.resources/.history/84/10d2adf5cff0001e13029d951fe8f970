@@ -42,7 +42,7 @@ int main(void)
 		// Blink the Led
 		sprintf(s,"%d",c);
 		UartPuts(s);
-		UartPuts(" ");
+		//UartPuts("\n");
 		c++;
 		exti0_flag = 0;
 	}

@@ -22,6 +22,7 @@
 #include "system_stm32f4xx.h"
 
 #include "uart.h"
+#include "led.h"
 #include "switch.h"
 
 #if !defined(__SOFT_FP__) && defined(__ARM_FP)
@@ -33,18 +34,29 @@ int main(void)
 	int c=0;
 	char s[16];
 	SystemInit();
+	LedInit(LED_RED);
+	LedInit(LED_BLUE);
 	UartInit(BAUD_9600);
 	SwitchInit(SWITCH);
 	while(1) {
-		// wait until switch interrupt generated
-		while(exti0_flag == 0)
-			;
-		// Blink the Led
-		sprintf(s,"%d",c);
-		UartPuts(s);
-		UartPuts(" ");
-		c++;
-		exti0_flag = 0;
+		UartPuts("Choose Below: \n");
+		UartPuts("\r1. Red LED ON\n");
+		UartPuts("\r2. Red LED OFF\n");
+		UartPuts("\r3. Blue LED ON\n");
+		UartPuts("\r4. Blue LED OFF\n");
+		UartGets(s);
+		sscanf(s,"%d",&c);
+		switch(c){
+			case 1:LedOn(LED_RED);
+			break;
+			case 2:LedOff(LED_RED);
+			break;
+			case 3:LedOn(LED_BLUE);
+			break;
+			case 4:LedOff(LED_BLUE);
+			break;
+
+		}
 	}
 	return 0;
 }

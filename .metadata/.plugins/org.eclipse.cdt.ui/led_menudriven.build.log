@@ -1,17 +1,10 @@
-16:06:38 **** Incremental Build of configuration Debug for project led_menudriven ****
+18:33:03 **** Incremental Build of configuration Debug for project led_menudriven ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "Src/main.o"
-arm-none-eabi-gcc -o "led_menudriven.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/pritesh/Desktop/sunbeam/microcontroller/class work/MCPI_Assignment/led_menudriven/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="led_menudriven.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: led_menudriven.elf
- 
 arm-none-eabi-size  led_menudriven.elf 
-arm-none-eabi-objdump -h -S led_menudriven.elf  > "led_menudriven.list"
    text	   data	    bss	    dec	    hex	filename
    6248	     84	   1900	   8232	   2028	led_menudriven.elf
 Finished building: default.size.stdout
  
-Finished building: led_menudriven.list
- 
 
-16:06:38 Build Finished. 0 errors, 0 warnings. (took 385ms)
+18:33:03 Build Finished. 0 errors, 0 warnings. (took 234ms)
 

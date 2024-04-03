@@ -1,4 +1,4 @@
-16:06:35 **** Incremental Build of configuration Debug for project day6_1 ****
+18:33:01 **** Incremental Build of configuration Debug for project day6_1 ****
 make -j8 all 
 arm-none-eabi-size  day6_1.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  day6_1.elf
 Finished building: default.size.stdout
  
 
-16:06:35 Build Finished. 0 errors, 0 warnings. (took 236ms)
+18:33:02 Build Finished. 0 errors, 0 warnings. (took 237ms)
 

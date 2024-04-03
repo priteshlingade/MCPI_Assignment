@@ -1,24 +1,24 @@
-16:41:05 **** Incremental Build of configuration Debug for project assin8-1 ****
+18:55:29 **** Incremental Build of configuration Debug for project assi9-1 ****
 make -j8 all 
 arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-../Src/main.c:27:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
-   27 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+../Src/main.c:30:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   30 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
       |    ^~~~~~~
-arm-none-eabi-gcc -o "assin8-1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/pritesh/Desktop/sunbeam/microcontroller/class work/MCPI_Assignment/assin8-1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="assin8-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: assin8-1.elf
+arm-none-eabi-gcc -o "assi9-1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/pritesh/Desktop/sunbeam/microcontroller/class work/MCPI_Assignment/assi9-1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="assi9-1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: assi9-1.elf
  
-arm-none-eabi-size  assin8-1.elf 
-arm-none-eabi-objdump -h -S assin8-1.elf  > "assin8-1.list"
+arm-none-eabi-size  assi9-1.elf 
+arm-none-eabi-objdump -h -S assi9-1.elf  > "assi9-1.list"
    text	   data	    bss	    dec	    hex	filename
-   6184	     84	   1900	   8168	   1fe8	assin8-1.elf
+   6032	     84	   1900	   8016	   1f50	assi9-1.elf
 Finished building: default.size.stdout
  
-Finished building: assin8-1.list
+Finished building: assi9-1.list
  
-16:41:12 **** Incremental Build of configuration Debug for project assin8-1 ****
+18:55:35 **** Incremental Build of configuration Debug for project assi9-1 ****
 make -j8 all 
-arm-none-eabi-size  assin8-1.elf 
+arm-none-eabi-size  assi9-1.elf 
    text	   data	    bss	    dec	    hex	filename
-   6184	     84	   1900	   8168	   1fe8	assin8-1.elf
+   6032	     84	   1900	   8016	   1f50	assi9-1.elf
 Finished building: default.size.stdout
  

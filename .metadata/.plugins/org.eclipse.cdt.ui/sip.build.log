@@ -1,0 +1,10 @@
+18:33:04 **** Incremental Build of configuration Debug for project sip ****
+make -j8 all 
+arm-none-eabi-size  sip.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4808	     84	   1900	   6792	   1a88	sip.elf
+Finished building: default.size.stdout
+ 
+
+18:33:04 Build Finished. 0 errors, 0 warnings. (took 237ms)
+

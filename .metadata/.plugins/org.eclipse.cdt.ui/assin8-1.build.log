@@ -1,0 +1,10 @@
+16:41:12 **** Incremental Build of configuration Debug for project assin8-1 ****
+make -j8 all 
+arm-none-eabi-size  assin8-1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6184	     84	   1900	   8168	   1fe8	assin8-1.elf
+Finished building: default.size.stdout
+ 
+
+16:41:12 Build Finished. 0 errors, 0 warnings. (took 237ms)
+

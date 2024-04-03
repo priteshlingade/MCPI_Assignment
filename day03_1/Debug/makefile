@@ -59,8 +59,8 @@ all: main-build
 main-build: day03_1.elf secondary-outputs
 
 # Tool invocations
-day03_1.elf day03_1.map: $(OBJS) $(USER_OBJS) /home/pritesh/Desktop/sunbeam/microcontroller/class\ work/day1/day03_1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "day03_1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/pritesh/Desktop/sunbeam/microcontroller/class work/day1/day03_1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="day03_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+day03_1.elf day03_1.map: $(OBJS) $(USER_OBJS) /home/pritesh/Desktop/sunbeam/microcontroller/class\ work/MCPI_Assignment/day03_1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "day03_1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/pritesh/Desktop/sunbeam/microcontroller/class work/MCPI_Assignment/day03_1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="day03_1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

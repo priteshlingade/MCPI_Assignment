@@ -58,3 +58,111 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-04-01 23:53:55.440
 !MESSAGE Indexed 'assign7_1' (2 sources, 53 headers) in 0.416 sec: 1,948 declarations; 2,834 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2024-04-02 22:40:13.797 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-02 22:40:37.393
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-02 22:40:37.394
+!MESSAGE Log4j2 initialized with config file /home/pritesh/Desktop/sunbeam/microcontroller/class work/MCPI_Assignment/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-02 22:40:42.872
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-02 22:41:31.321
+!MESSAGE Indexed 'assign7_2' (9 sources, 69 headers) in 1.68 sec: 3,501 declarations; 6,382 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.02%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-02 22:43:03.008
+!MESSAGE Indexed 'led_menudriven' (3 sources, 53 headers) in 0.689 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:11.930
+!MESSAGE Indexed 'intrupt' (7 sources, 67 headers) in 0.889 sec: 3,443 declarations; 5,768 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:19.526
+!MESSAGE Indexed 'switch' (5 sources, 65 headers) in 0.498 sec: 3,415 declarations; 5,672 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:20.002
+!MESSAGE Indexed 'lcd' (6 sources, 66 headers) in 0.474 sec: 3,440 declarations; 5,588 references; 0 unresolved inclusions; 3 syntax errors; 13 unresolved names (0.14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:20.461
+!MESSAGE Indexed 'clockwise' (6 sources, 66 headers) in 0.457 sec: 3,432 declarations; 5,682 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:21.004
+!MESSAGE Indexed 'uart' (6 sources, 69 headers) in 0.54 sec: 3,641 declarations; 5,921 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:21.454
+!MESSAGE Indexed 'bsrr' (6 sources, 66 headers) in 0.447 sec: 3,432 declarations; 5,691 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:22.204
+!MESSAGE Indexed 'led_clock' (6 sources, 66 headers) in 0.745 sec: 3,431 declarations; 5,674 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:22.700
+!MESSAGE Indexed 'led_blk' (5 sources, 65 headers) in 0.494 sec: 3,414 declarations; 5,627 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:23.211
+!MESSAGE Indexed 'serial_uart' (6 sources, 69 headers) in 0.508 sec: 3,640 declarations; 5,895 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:23.754
+!MESSAGE Indexed 'I2C' (7 sources, 67 headers) in 0.54 sec: 3,466 declarations; 5,935 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:24.515
+!MESSAGE Indexed 'USART' (3 sources, 74 headers) in 0.759 sec: 5,092 declarations; 9,122 references; 0 unresolved inclusions; 18 syntax errors; 93 unresolved names (0.65%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 06:59:24.975
+!MESSAGE Indexed 'assin8_1' (8 sources, 68 headers) in 0.46 sec: 3,493 declarations; 6,181 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 15:18:10.245
+!MESSAGE Indexed 'i2clcd' (2 sources, 53 headers) in 0.48 sec: 1,948 declarations; 2,834 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-03 15:33:49.405
+!MESSAGE Indexed 'assin8-1' (3 sources, 53 headers) in 0.232 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.ui 4 0 2024-04-03 16:06:51.644
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.util.ConcurrentModificationException
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.checkModCount(AbstractEList.java:751)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.doNext(AbstractEList.java:699)
+	at org.eclipse.emf.common.util.AbstractEList$EIterator.next(AbstractEList.java:685)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:187)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:256)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:95)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:495)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:259)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5854)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1529)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1555)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1534)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:290)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:5106)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4507)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1432)

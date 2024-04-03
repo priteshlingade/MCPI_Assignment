@@ -1,0 +1,31 @@
+16:06:38 **** Build of configuration Debug for project led_clock ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"clockwise/Startup/startup_stm32f407vgtx.d" -MT"clockwise/Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "clockwise/Startup/startup_stm32f407vgtx.o" "../clockwise/Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../clockwise/Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"clockwise/Src/itm.d" -MT"clockwise/Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "clockwise/Src/itm.o"
+arm-none-eabi-gcc "../clockwise/Src/led.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"clockwise/Src/led.d" -MT"clockwise/Src/led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "clockwise/Src/led.o"
+arm-none-eabi-gcc "../clockwise/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"clockwise/Src/main.d" -MT"clockwise/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "clockwise/Src/main.o"
+arm-none-eabi-gcc "../clockwise/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"clockwise/Src/syscalls.d" -MT"clockwise/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "clockwise/Src/syscalls.o"
+arm-none-eabi-gcc "../clockwise/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"clockwise/Src/sysmem.d" -MT"clockwise/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "clockwise/Src/sysmem.o"
+arm-none-eabi-gcc "../clockwise/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"clockwise/Src/system_stm32f4xx.d" -MT"clockwise/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o "clockwise/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc "../.metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.d" -MT".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o ".metadata/.plugins/org.eclipse.cdt.managedbuilder.core/spec.o"
+../clockwise/Src/led.c:8:9: fatal error: led.h: No such file or directory
+    8 | #include"led.h"
+      |         ^~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=soft -mthumb -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o"
+make: *** [clockwise/Src/subdir.mk:34: clockwise/Src/led.o] Error 1
+make: *** Waiting for unfinished jobs....
+../clockwise/Src/system_stm32f4xx.c:49:10: fatal error: stm32f4xx.h: No such file or directory
+   49 | #include "stm32f4xx.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [clockwise/Src/subdir.mk:34: clockwise/Src/system_stm32f4xx.o] Error 1
+../clockwise/Src/main.c:21:10: fatal error: stm32f4xx.h: No such file or directory
+   21 | #include "stm32f4xx.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [clockwise/Src/subdir.mk:34: clockwise/Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:06:38 Build Failed. 7 errors, 0 warnings. (took 287ms)
+

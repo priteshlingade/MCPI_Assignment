@@ -106,7 +106,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./Src/itm.o
  .debug_macro   0x00000000      0x1df ./Src/itm.o
  .debug_line    0x00000000      0x37a ./Src/itm.o
- .debug_str     0x00000000     0x3de4 ./Src/itm.o
+ .debug_str     0x00000000     0x3def ./Src/itm.o
  .comment       0x00000000       0x44 ./Src/itm.o
  .debug_frame   0x00000000       0x38 ./Src/itm.o
  .ARM.attributes
@@ -167,7 +167,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x4a ./Src/lcd.o
  .debug_macro   0x00000000       0xa6 ./Src/lcd.o
  .debug_line    0x00000000      0x56e ./Src/lcd.o
- .debug_str     0x00000000    0x87f56 ./Src/lcd.o
+ .debug_str     0x00000000    0x87f61 ./Src/lcd.o
  .comment       0x00000000       0x44 ./Src/lcd.o
  .debug_frame   0x00000000       0xe8 ./Src/lcd.o
  .ARM.attributes
@@ -440,7 +440,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x16 ./Src/syscalls.o
  .debug_macro   0x00000000       0xce ./Src/syscalls.o
  .debug_line    0x00000000      0x7e2 ./Src/syscalls.o
- .debug_str     0x00000000     0x98d8 ./Src/syscalls.o
+ .debug_str     0x00000000     0x98e3 ./Src/syscalls.o
  .comment       0x00000000       0x44 ./Src/syscalls.o
  .debug_frame   0x00000000      0x2ac ./Src/syscalls.o
  .ARM.attributes
@@ -1408,21 +1408,21 @@ LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
  .debug_line    0x0000189b      0x544 ./Src/uart.o
  .debug_line    0x00001ddf       0x7b ./Startup/startup_stm32f407vgtx.o
 
-.debug_str      0x00000000    0x8c344
- .debug_str     0x00000000    0x87c44 ./Src/led.o
-                              0x87dc0 (size before relaxing)
- .debug_str     0x00087c44     0x3aed ./Src/main.o
-                              0x8b724 (size before relaxing)
- .debug_str     0x0008b731      0x5b4 ./Src/switch.o
-                              0x882a6 (size before relaxing)
- .debug_str     0x0008bce5      0x4d7 ./Src/sysmem.o
-                               0x60f0 (size before relaxing)
- .debug_str     0x0008c1bc       0xee ./Src/system_stm32f4xx.o
-                              0x87df8 (size before relaxing)
- .debug_str     0x0008c2aa       0x5b ./Src/uart.o
-                              0x87d79 (size before relaxing)
- .debug_str     0x0008c305       0x3f ./Startup/startup_stm32f407vgtx.o
-                                 0x8d (size before relaxing)
+.debug_str      0x00000000    0x8c34f
+ .debug_str     0x00000000    0x87c4f ./Src/led.o
+                              0x87dcb (size before relaxing)
+ .debug_str     0x00087c4f     0x3aed ./Src/main.o
+                              0x8b72f (size before relaxing)
+ .debug_str     0x0008b73c      0x5b4 ./Src/switch.o
+                              0x882b1 (size before relaxing)
+ .debug_str     0x0008bcf0      0x4d7 ./Src/sysmem.o
+                               0x60fb (size before relaxing)
+ .debug_str     0x0008c1c7       0xee ./Src/system_stm32f4xx.o
+                              0x87e03 (size before relaxing)
+ .debug_str     0x0008c2b5       0x5b ./Src/uart.o
+                              0x87d84 (size before relaxing)
+ .debug_str     0x0008c310       0x3f ./Startup/startup_stm32f407vgtx.o
+                                 0x98 (size before relaxing)
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Src/led.o
@@ -1467,6 +1467,6 @@ LOAD /opt/st/stm32cubeide_1.15.0/plugins/com.st.stm32cube.ide.mcu.externaltools.
                 0x00000000       0x1f ./Src/system_stm32f4xx.o
 
 .debug_line_str
-                0x00000000       0x71
+                0x00000000       0x7c
  .debug_line_str
-                0x00000000       0x71 ./Startup/startup_stm32f407vgtx.o
+                0x00000000       0x7c ./Startup/startup_stm32f407vgtx.o

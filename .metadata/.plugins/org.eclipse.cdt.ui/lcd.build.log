@@ -1,0 +1,100 @@
+16:06:36 **** Build of configuration Debug for project lcd ****
+make -j8 all 
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
+arm-none-eabi-gcc "../Src/itm.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/itm.d" -MT"Src/itm.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/itm.o"
+arm-none-eabi-gcc "../Src/lcd.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/lcd.d" -MT"Src/lcd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/lcd.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc "../Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/syscalls.d" -MT"Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/syscalls.o"
+arm-none-eabi-gcc "../Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/sysmem.d" -MT"Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/sysmem.o"
+arm-none-eabi-gcc "../Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/system_stm32f4xx.d" -MT"Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/system_stm32f4xx.o"
+In file included from ../Src/lcd.c:8:
+../Inc/lcd.h:43:21: error: unknown type name 'uint8_t'
+   43 | void LcdWriteNibble(uint8_t rs , uint8_t val);
+      |                     ^~~~~~~
+../Inc/lcd.h:1:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+  +++ |+#include <stdint.h>
+    1 | /*
+../Inc/lcd.h:43:34: error: unknown type name 'uint8_t'
+   43 | void LcdWriteNibble(uint8_t rs , uint8_t val);
+      |                                  ^~~~~~~
+../Inc/lcd.h:43:34: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Inc/lcd.h:44:15: error: unknown type name 'uint8_t'
+   44 | void LcdWrite(uint8_t rs,uint_t val );
+      |               ^~~~~~~
+../Inc/lcd.h:44:15: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Inc/lcd.h:44:26: error: unknown type name 'uint_t'
+   44 | void LcdWrite(uint8_t rs,uint_t val );
+      |                          ^~~~~~
+../Inc/lcd.h:47:14: error: unknown type name 'uint_t'
+   47 | void LcdPuts(uint_t line,char str[]);
+      |              ^~~~~~
+../Src/lcd.c:15:21: error: unknown type name 'uint8_t'
+   15 | void LcdWriteNibble(uint8_t rs , uint8_t val);
+      |                     ^~~~~~~
+../Src/lcd.c:9:1: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+    8 | #include "lcd.h"
+  +++ |+#include <stdint.h>
+    9 | 
+../Src/lcd.c:15:34: error: unknown type name 'uint8_t'
+   15 | void LcdWriteNibble(uint8_t rs , uint8_t val);
+      |                                  ^~~~~~~
+../Src/lcd.c:15:34: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Src/lcd.c:16:15: error: unknown type name 'uint8_t'
+   16 | void LcdWrite(uint8_t rs,uint_t val );
+      |               ^~~~~~~
+../Src/lcd.c:16:15: note: 'uint8_t' is defined in header '<stdint.h>'; did you forget to '#include <stdint.h>'?
+../Src/lcd.c:16:26: error: unknown type name 'uint_t'
+   16 | void LcdWrite(uint8_t rs,uint_t val );
+      |                          ^~~~~~
+../Src/lcd.c: In function 'LcdInit':
+../Src/lcd.c:20:9: warning: implicit declaration of function 'DelayMs' [-Wimplicit-function-declaration]
+   20 |         DelayMs(50);
+      |         ^~~~~~~
+../Src/lcd.c:21:9: error: 'RCC' undeclared (first use in this function)
+   21 |         RCC->AHB1ENR |=BV(LCD_DATA_GPIO_EN);
+      |         ^~~
+../Src/lcd.c:21:9: note: each undeclared identifier is reported only once for each function it appears in
+../Src/lcd.c:21:24: warning: implicit declaration of function 'BV' [-Wimplicit-function-declaration]
+   21 |         RCC->AHB1ENR |=BV(LCD_DATA_GPIO_EN);
+      |                        ^~
+../Src/lcd.c:22:27: error: 'LCD_CMD_GPIO_EN' undeclared (first use in this function); did you mean 'LCD_DATA_GPIO_EN'?
+   22 |         RCC->AHB1ENR |=BV(LCD_CMD_GPIO_EN);
+      |                           ^~~~~~~~~~~~~~~
+      |                           LCD_DATA_GPIO_EN
+../Inc/lcd.h:11:41: error: 'GPIOD' undeclared (first use in this function)
+   11 | #define LCD_DATA_GPIO                   GPIOD
+      |                                         ^~~~~
+../Src/lcd.c:24:9: note: in expansion of macro 'LCD_DATA_GPIO'
+   24 |         LCD_DATA_GPIO->MODER &= ~
+      |         ^~~~~~~~~~~~~
+../Src/lcd.c:25:1: error: expected expression before '}' token
+   25 | }
+      | ^
+../Src/lcd.c: At top level:
+../Src/lcd.c:28:14: error: unknown type name 'uint_t'
+   28 | void LcdPuts(uint_t line,char str[]);
+      |              ^~~~~~
+make: *** [Src/subdir.mk:34: Src/lcd.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Src/main.c:25:4: warning: #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use." [-Wcpp]
+   25 |   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+      |    ^~~~~~~
+../Src/main.c: In function 'main':
+../Src/main.c:32:9: warning: implicit declaration of function 'LcdInit' [-Wimplicit-function-declaration]
+   32 |         LcdInit();
+      |         ^~~~~~~
+../Src/main.c:33:9: warning: implicit declaration of function 'LcdPuts' [-Wimplicit-function-declaration]
+   33 |         LcdPuts(Lcd_Line1,"hello pritesh");
+      |         ^~~~~~~
+../Src/main.c:33:17: error: 'Lcd_Line1' undeclared (first use in this function)
+   33 |         LcdPuts(Lcd_Line1,"hello pritesh");
+      |                 ^~~~~~~~~
+../Src/main.c:33:17: note: each undeclared identifier is reported only once for each function it appears in
+../Src/main.c:34:17: error: 'Lcd_Line2' undeclared (first use in this function)
+   34 |         LcdPuts(Lcd_Line2,"how are you");
+      |                 ^~~~~~~~~
+make: *** [Src/subdir.mk:34: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:06:37 Build Failed. 19 errors, 5 warnings. (took 403ms)
+

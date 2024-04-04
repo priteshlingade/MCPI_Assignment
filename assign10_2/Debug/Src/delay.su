@@ -1,0 +1,2 @@
+../Src/delay.c:10:6:Tim_Init	4	static
+../Src/delay.c:20:6:delay	24	static

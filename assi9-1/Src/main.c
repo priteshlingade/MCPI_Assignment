@@ -52,7 +52,6 @@ int main(void)
 			LcdPuts(LCD_LINE1, str);
 			LcdPuts(LCD_LINE2, str2);
 
-
 			DelayMs(1000);
 		}
 	}
